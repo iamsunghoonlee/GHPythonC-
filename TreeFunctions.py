@@ -2,6 +2,9 @@ from Grasshopper import DataTree
 from Grasshopper.Kernel.Data import GH_Path
 from Rhino.Geometry import Point3d
 
+#GH input
+#points(list Access, point) itemNum(item access, int)
+
 def treeBranch(points, itemNum):
     """ list items (points) into DataTree based on itemNum """
     tree = DataTree[Point3d]()
